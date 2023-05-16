@@ -1,7 +1,7 @@
 # Crustacean hoods strive for power
 
 Authors and their affilations:
-- Alexandra Belyaeva, MSU +BI
+- Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex), MSU +BI
 - Alexandr Zhuravlev, PNPI + BI
 
 Scientific supervisor and her affilation:
