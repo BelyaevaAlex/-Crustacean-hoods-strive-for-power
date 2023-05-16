@@ -4,7 +4,7 @@ Authors and their affilations:
 - Alexandra Belyaeva, MSU +BI
 - Alexandr Zhuravlev, PNPI + BI
 
-Scientific supervisor:
+Scientific supervisor and her affilation:
 - Polina Drozdova, ISU · Institute of Biology
 
 ## Introduction
