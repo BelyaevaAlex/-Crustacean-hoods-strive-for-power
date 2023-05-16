@@ -27,7 +27,7 @@ __Objectives:__
 7. creation of “must have” list with essential for replication checkpoints
 
 
-## Our pipeline 
+## Pipeline of the project:
 ------------
 
 
