@@ -16,7 +16,7 @@ Scientific supervisor and her affilation:
 
 The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
 
-Tasks:
+__Tasks:__
 1. searching for the vault of data  (literature review, blastn, NCBI database search due to data errors, study of additional materials)
 2. repeating them with modern tools
 3. comparison of the results of using several tools at a specific step
