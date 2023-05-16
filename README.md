@@ -1,4 +1,5 @@
 # Crustacean hoods strive for power
+---------------------------------------------------------------------------------------
 
 Authors and their affilations:
 - Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex), MSU +BI
@@ -8,15 +9,15 @@ Scientific supervisor and her affilation:
 - Polina Drozdova, ISU · Institute of Biology
 
 ## Introduction
-
+------------
 
 ## Data
-
-## Aim and tasks
-
+------------
+## Aim and objectives:
+------------
 The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
 
-__Tasks:__
+__Objectives:__
 1. searching for the vault of data  (literature review, blastn, NCBI database search due to data errors, study of additional materials)
 2. repeating them with modern tools
 3. comparison of the results of using several tools at a specific step
@@ -26,23 +27,29 @@ __Tasks:__
 7. creation of “must have” list with essential for replication checkpoints
 
 
-
 ## Our pipeline 
+------------
+
+
+## Our analysis tools and their versions
+------------
 
 ## Results
-
+------------
 
 
 
 ## Summary
-
+------------
 
 
 
 ## References
+------------
 - []()
 - []()
-
+- []()
+- []()
 
 
 
