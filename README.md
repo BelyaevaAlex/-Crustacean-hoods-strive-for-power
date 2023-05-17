@@ -29,7 +29,7 @@ __Objectives:__
 
 ## Pipeline of the project:
 ------------
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-17%20в%2000.34.03.png) 
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-17%20в%2011.31.12.png) 
 
 ## Our analysis tools and their versions
 ------------
