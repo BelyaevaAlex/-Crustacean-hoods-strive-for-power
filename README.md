@@ -14,7 +14,7 @@ Scientific supervisor and her affilation:
 ## Data
 ------------
 
-__1. Specimens were collected in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
+__1. Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
 as outgroups.__
 
 Reproducibly extracting data from NCBI with the help of Entrez Utilities (E-Utils) is possible:
