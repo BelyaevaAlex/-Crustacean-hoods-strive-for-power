@@ -13,6 +13,57 @@ Scientific supervisor and her affilation:
 
 ## Data
 ------------
+
+__1. Specimens were collected in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
+as outgroups.__
+
+Reproducibly extracting data from NCBI with the help of Entrez Utilities (E-Utils) is possible:
+
+```
+from Bio import Entrez
+from Bio import SeqIO
+
+Entrez.email = 'Your crustacean email@yandex.ru' 
+accession_numbers = ["MN005083", "MN005110", "MN005067", "MN148361", "MT110188",
+                    "MN005085", "MN005112", "MN005069", "MN148353", "MT110190",
+                    "MN005075", "MN005102", "MN005059", "MN148355", "MT110180", "GERH00000000",
+                    "MN005082", "MN005109", "MN005066", "AY926682", "MT110187",
+                    "MN005072", "MN005099", "MN148354", "MT110177", "GEQP00000000",
+                    "MN005087", "MN005114", "MN005071", "MN148352", "MT110192", "GEPN00000000",
+                    "MN005079", "MN005106", "MN005063", "MN148358", "MT110184", "GEQG00000000",
+                    "MN005076", "MN005103", "MN005060", "MN148356", "MT110181", "GEQM00000000",
+                    "MN005086", "MN005113", "MN005070", "MT110191", "GEQL00000000",
+                    "MN005080", "MN005107", "MN005064", "MN148359", "MT110185",
+                    "MN005074", "MN005101", "MN005058", "MN148349", "MT110179",
+                    "MN005084", "MN005111", "MN005068", "MN148351", "MT110189",
+                    "MN005073", "MN005100", "MN005057", "MN148362", "MT110178", "GEPS00000000",
+                    "MN005081", "MN005108", "MN005065", "MN148360", "MT110186",
+                    "MN005077", "MN005104", "MN005061", "MN148357", "MT110182",
+                    "KU056126", "JF966123", "KU056214", "JX899354", "KY378963", "JF966002",
+                    "MN005078", "MN005105", "MN005062", "MN148350", "MT110183", "GERD00000000",
+                    "AY926725", "AY926847", "AY529073", "MG320683", "KJ721817",
+                    "KF521875", "KY618503", "KY618465", "KF521835", "JF966033",
+                    "EF582873", "EF582919", "JF965739", "EF570327", "JF966065",
+                    "KF824647", "EF582921", "JF965743", "EU146922", "JF966069",
+                    "EF582864", "EF582912", "JF965747", "AB893342", "JF966071",
+                    "EF582877", "AF202982", "JF965765", "JF965943", "JF966086",
+                    "EF582879", "EF582925", "KP789769", "JF965984", "JF966111",
+                    "EF582858", "EF582905", "EF582954", "MG734968",
+                    "AJ440902", "EF582898", "KF478496", "MG986757",
+                    "NC_039403", "AY743944", "DQ464742", "JX446367", "XM_018164572", "XM_018168833"]
+
+query = " OR ".join(accession_numbers)
+handle = Entrez.efetch(db="nucleotide", id=query, rettype="fasta", retmode="text")
+sequences = handle.read()
+```
+
+However, transcriptome assemblies were sometimes mixed among the sequences, which had to be worked with using blastn.
+
+__2. Individual lines of G. fossarum in their contact zone in the Western Carpathians are being studied.__
+
+There is no source data. But there is an archive already with ready alignments in supporting information: https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Flno.12239&file=lno12239-sup-0007-DataS1.zip 
+
+
 ## Aim and objectives:
 ------------
 The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
