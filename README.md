@@ -33,9 +33,12 @@ __Objectives:__
 ## Our analysis tools and their versions
 ------------
 __Data preparation:__
+
 - The GenBank database:  https://www.ncbi.nlm.nih.gov/genbank/ 
 - Nucleotide BLAST : https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome
+
 __Alignment + trimming:__
+
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
 - Unipro UGENE вер. 46.0 (64-bit version): https://ugene.net/ru/ 
 - Jalview (version: 2.11.2.6): https://www.jalview.org/download/macos/ 
@@ -47,14 +50,20 @@ __Alignment + trimming:__
 - EMBOSS:6.6.0.0
 - Clustal Omega - 1.2.4 (AndreaGiacomo)
 - trimAl v1.2: http://trimal.cgenomics.org/downloads 
+
 __Data concatenation and partitions:__
+
 - Catfasta2phyml v.1.2.0 : https://github.com/nylander/catfasta2phyml 
+
 __Best-fitting evolutionary models:__
+
 - PartitionFinder 2.1.1 : https://github.com/brettc/partitionfinder 
 - Modeltest-ng x.y.z : https://github.com/ddarriba/modeltest 
 - IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020: http://www.iqtree.org
 - jModelTest v2.1.10 : https://github.com/ddarriba/jmodeltest2 
+
 __Building tree + dating:__
+
 - BEAST v2.7.4 : https://www.beast2.org 
 - IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020: http://www.iqtree.org
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
