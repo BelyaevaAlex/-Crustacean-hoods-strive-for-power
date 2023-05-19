@@ -122,7 +122,9 @@ __Building tree + dating:__
 
 ## Results
 ------------
+“Must have” list with essential for replication checkpoints:
 
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_3.png)
 
 
 ## Summary
