@@ -132,7 +132,7 @@ Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 
 “Must have” list with essential for this kind of phylogenetic analysis:
 
-![]()
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_1.png)
 
 ## Summary
 ------------
