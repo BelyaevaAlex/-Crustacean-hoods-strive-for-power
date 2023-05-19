@@ -10,7 +10,9 @@ Scientific supervisor and her affilation:
 
 ## Introduction
 ------------
+In phylogenetic studies, the problem of reproducibility of data is a major issue. This problem arises due to several factors, including the complexity of the data, the use of different methods and software packages, and the lack of standardization in reporting results. The use of different methods and software packages can lead to different results, which makes it difficult to compare and reproduce results. Additionally, the lack of standardization in reporting results makes it difficult for other researchers to reproduce the same results. 
 
+This project examined the issue of phylogenetic analysis reproducibility in a number of studies on freshwater crustaceans based on open data. 
 ## Data
 ------------
 
