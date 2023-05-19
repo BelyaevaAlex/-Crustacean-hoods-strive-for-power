@@ -126,7 +126,9 @@ __Building tree + dating:__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_3.png)
 
+Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 
+![]([https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_3.png](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Yellow%20Illustrated%20Path%20Design%20Process%20Timeline%20Infographic.png))
 ## Summary
 ------------
 
