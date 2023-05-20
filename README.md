@@ -15,8 +15,7 @@ In phylogenetic studies, the problem of reproducibility of data is a major issue
 This project examined the issue of phylogenetic analysis reproducibility in a number of studies on freshwater crustaceans based on open data. 
 ## Data
 ------------
-
-__1. Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
+__1. Moskalenko: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
 as outgroups.__
 
 Reproducibly extracting data from NCBI with the help of Entrez Utilities (E-Utils) is possible:
@@ -61,7 +60,7 @@ sequences = handle.read()
 
 However, transcriptome assemblies were sometimes mixed among the sequences, which had to be worked with using blastn.
 
-__2. Individual lines of G. fossarum in their contact zone in the Western Carpathians are being studied.__
+__2. Bystřický: Individual lines of G. fossarum in their contact zone in the Western Carpathians are being studied.__
 
 There is no source data. But there is an archive already with ready alignments in supporting information: https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Flno.12239&file=lno12239-sup-0007-DataS1.zip 
 
