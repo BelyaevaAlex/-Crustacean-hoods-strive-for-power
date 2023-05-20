@@ -65,22 +65,31 @@ __2. Bystřický: Individual lines of G. fossarum in their contact zone in the W
 There is no source data. But there is an archive already with ready alignments in supporting information: https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Flno.12239&file=lno12239-sup-0007-DataS1.zip 
 
 __3. Bukin: Specimens of the amphipod G. fasciatus were collected in the littoral zone of Lake Baikal + previously published in pop-set data.__
+
 URL-link for pop-set data:
 https://www.ncbi.nlm.nih.gov/popset/376403838
+
 The sequences obtained in the study were deposited in the database under the following accession numbers: MG214957, MG214958.
+
 MG214957:
 https://www.ncbi.nlm.nih.gov/nuccore/MG214957.1/
+
 MG214958:
 https://www.ncbi.nlm.nih.gov/nuccore/MG214958.1/
 
 __4. Wattier: COI sequences for the DNA-barcode region were either newly generated or derived from the literature for 4926 Gammarus fossarum individuals, from 498 sampling sites distributed throughout 19 European countries.__
+
 All these sequences were derived into three groups.
+
 1. All newly produced COI sequences are released in GenBank under accession numbers: MT978656–MT980726.
 https://www.ncbi.nlm.nih.gov/nuccore/?term=MT978656:MT980726[pacc]
+
 2.The 463 sequences from Lagrue et al. which were initially unreleased in Genbank are now available under accession numbers: MT411018-MT411480.
 https://www.ncbi.nlm.nih.gov/nuccore/?term=MT411018:MT411480[pacc]
+
 3.Sequences and metadata are available in BOLD dataset DS-GFOSCDEU.
 http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-GFOSCDEU
+
 ## Aim and objectives:
 ------------
 The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
