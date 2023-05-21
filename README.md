@@ -160,6 +160,7 @@ Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_1.png)
 
+__Moskalenko_1.ipynb:__
 Also to process the data from both the source and the tools obtained during the application, 3 small scripts were written to generate the correct input data for the next tools in the queue. All of them are presented in the file Moskalenko_1.ipynb. For convenience, they are designed in the form of functions.
 
 According to one of the articles, a comparative analysis of the use of tools at different stages of our analysis was carried out. 
@@ -172,12 +173,27 @@ Our analysis showed that kalign tool wins on all indicators based on our data.
 
 Further, at the stage of data concatenation, it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation: https://www.megasoftware.net/web_help_10/Concatenation_Utility.htm
 
+__Moskalenko_2.ipynb:__
+
 Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage, as mentioned earlier.
+
+The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
+
 
 ## Summary
 ------------
 
-Two of the four articles should be considered complex and poorly reproducible for the following reasons: 1) the absence of source data in some of them; 2) information about the source data and explanations to them are located throughout the article; 3) the tools are indicated without their versions and provided parameters; 4) the authors miss the moments of correcting output and, accordingly, input data during pipeline execution. The last two items of this list of shortcomings also apply to the other two articles.
+Two of the four articles should be considered complex and poorly reproducible for the following reasons: 
+
+1) the absence of source data in some of them; 
+
+2) information about the source data and explanations to them are located throughout the article; 
+
+3) the tools are indicated without their versions and provided parameters; 
+
+4) the authors miss the moments of correcting output and, accordingly, input data during pipeline execution. 
+
+The last two items of this list of shortcomings also apply to the other two articles.
 
 ## References
 ------------
