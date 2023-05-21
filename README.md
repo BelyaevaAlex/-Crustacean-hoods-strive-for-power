@@ -170,6 +170,8 @@ According to one of the articles, a comparative analysis of the use of tools at 
 
 Our analysis showed that kalign tool wins on all indicators based on our data.
 
+Further, at the stage of data concatenation, it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation: https://www.megasoftware.net/web_help_10/Concatenation_Utility.htm
+
 ## Summary
 ------------
 
