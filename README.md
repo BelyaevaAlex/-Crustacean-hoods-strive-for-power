@@ -161,6 +161,7 @@ Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_1.png)
 
 __Moskalenko_1.ipynb:__
+
 Also to process the data from both the source and the tools obtained during the application, 3 small scripts were written to generate the correct input data for the next tools in the queue. All of them are presented in the file Moskalenko_1.ipynb. For convenience, they are designed in the form of functions.
 
 According to one of the articles, a comparative analysis of the use of tools at different stages of our analysis was carried out. 
