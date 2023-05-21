@@ -180,6 +180,9 @@ Although this was not stated in the article, but by the look of our alignments, 
 
 The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/model.png)
+
+In general, we believe that both programs have come to about the same thing. However, in the article, again, this point was omitted and it is not even known which of the tools was used to select the model, or at least which model of evolution they selected and by what criterion (BIC or AIC).
 
 ## Summary
 ------------
