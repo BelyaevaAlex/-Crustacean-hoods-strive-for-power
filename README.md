@@ -196,6 +196,12 @@ The selection of the evolutionary model was performed using both ModelTest (Mode
 
 In general, we believe that both tools have come to about the same thing. However, in the article, again, this point was omitted and it is not even known which of the tools was used to select the model, or at least which model of evolution they selected and by what criterion (BIC or AIC).
 
+Our ML-trees were built in RAxML-NG and in IQ-TREE , but the optimal solution seemed to be to use IQ-TREE, since it worked faster. Two libraries have also been tried for tree visualization: in R ggtree and in Python from Bio import Phylo, since they are the easiest to install for reproducibility of results.
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr1_r_p.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr2_r_p.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/all_r_p.png)
+The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogenetic position of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
+
 ## Summary
 ------------
 
