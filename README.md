@@ -226,6 +226,45 @@ The EF1a marker: graphical version of the conspecificity matrix:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/third_tools.png)
 
+__Bukin:__
+
+There was no information about trimming in the original paper. It was decided to make one with -automated1 setting.
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bukin_no_trim.png)
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bukin_trim.png)
+
+In the original article the best-fitting GTR model with gamma correction (GTR + G) was used for phylogenetic analysis. During the replication was got another model.
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/1_3.PNG)
+
+On the our picture we can see the original clades of Central, Northern and southwestern populations. Little difference may be the result of poor given data. 
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Bukin.PNG)
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/all_in_one_2_trim_lognorma_strict_trees_built.txt.png)
+
+__Watier:__
+
+There was no information about trimming in the original paper. But there was problem with turning on pipeline due to the sample size. So we had to trim four times with -automated1 setting.
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/wat_no_trim.png)
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/wat_4_trim.png)
+
+The best-fitting model of substitution was the transversion model (TVM) with gamma-distributed rate heterogeneity (G) and a given proportion of invariable sites (I). Received model matched with the original
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bmodeltest.PNG)
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/modelIndexes.png)
+
+It isn’t possible to compare trees, due to the Jawa heap space error, which hasn’t been solved yet.
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Mistake.PNG)
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Watier.PNG)
+
+
 ## Summary
 ------------
 Two of the four articles should be considered complex and poorly reproducible for the following reasons:
