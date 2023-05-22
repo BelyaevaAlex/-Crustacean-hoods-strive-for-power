@@ -178,6 +178,18 @@ __Moskalenko_2.ipynb:__
 
 Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage, as mentioned earlier.
 
+Dataset 1:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr_1_UG.png)
+
+Dataset 2: 
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr_2_UG.png)
+
+All without without gaps in the data:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr_all_UG.png)
+
 The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/model.png)
