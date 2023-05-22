@@ -238,7 +238,7 @@ Two of the four articles should be considered complex and poorly reproducible fo
 
 4. Incomplete or insufficient method descriptions: Some articles may not provide detailed descriptions of the methods used in the phylogenetic analysis. This lack of information makes it challenging for other researchers to accurately reproduce the analysis. Insufficient method descriptions can include incomplete information about the software versions, parameter settings, and other critical details necessary for replication;
 
-5.Ambiguities in data preprocessing: Preprocessing steps, such as sequence alignment or data filtering, are crucial in phylogenetic analysis. However, the specific details of these steps are often not well-documented or may be subject to interpretation. Without clear instructions or descriptions, reproducing the exact preprocessing steps becomes challenging and can lead to inconsistencies in results.The authors miss the moments of correcting output and, accordingly, input data during pipeline execution;
+5. Ambiguities in data preprocessing: Preprocessing steps, such as sequence alignment or data filtering, are crucial in phylogenetic analysis. However, the specific details of these steps are often not well-documented or may be subject to interpretation. Without clear instructions or descriptions, reproducing the exact preprocessing steps becomes challenging and can lead to inconsistencies in results.The authors miss the moments of correcting output and, accordingly, input data during pipeline execution;
 
 The first item on the list of shortcomings and the last two items also apply to the other two articles.
 
