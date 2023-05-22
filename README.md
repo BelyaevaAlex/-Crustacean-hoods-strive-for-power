@@ -202,6 +202,12 @@ Our ML-trees were built in RAxML-NG and in IQ-TREE , but the optimal solution se
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/all_r_p.png)
 The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogenetic position of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
 
+__Bystricky.ipynb:__
+
+One of the main problems of this article is the lack of source data, we found only alignment files in the appendix to the article. We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC.
+Next, trees were built using RAxML-NG and in IQ-TREE, and using the python module from Bio import Phylo, they were visualized.
+If we do not consider it at a detailed level, then the resulting trees almost coincide in topology (all drawings can be seen in the Bystricky.ipynb file) with the trees given in the appendix to the article.
+
 ## Summary
 ------------
 
