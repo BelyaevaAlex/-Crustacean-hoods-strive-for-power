@@ -228,18 +228,19 @@ The EF1a marker: graphical version of the conspecificity matrix:
 
 ## Summary
 ------------
+Two of the four articles should be considered complex and poorly reproducible for the following reasons:
 
-Two of the four articles should be considered complex and poorly reproducible for the following reasons: 
+1. Lack of code availability: One of the main challenges in reproducing phylogenetic analyses is the unavailability of the code used in the analysis. Without access to the original code, it becomes difficult for other researchers to understand and replicate the analysis. This lack of transparency can hinder the reproducibility of the results;
 
-1) the absence of source data in some of them; 
+2. The absence of source data in our phylogenetic analysis studies was a significant barrier to reproducibility. Without access to the original source data, other researchers like us cannot replicate the analysis or verify the findings; 
 
-2) information about the source data and explanations to them are located throughout the article; 
+3. Missing or incomplete data: Sometimes, articles do not provide the full dataset used in the analysis, making it impossible to reproduce the results accurately. Also, information about the source data and explanations to them are sometimes located throughout the article, which is why you have to go back through the previous steps of the pipeline;
 
-3) the tools are indicated without their versions and provided parameters; 
+4. Incomplete or insufficient method descriptions: Some articles may not provide detailed descriptions of the methods used in the phylogenetic analysis. This lack of information makes it challenging for other researchers to accurately reproduce the analysis. Insufficient method descriptions can include incomplete information about the software versions, parameter settings, and other critical details necessary for replication;
 
-4) the authors miss the moments of correcting output and, accordingly, input data during pipeline execution. 
+5.Ambiguities in data preprocessing: Preprocessing steps, such as sequence alignment or data filtering, are crucial in phylogenetic analysis. However, the specific details of these steps are often not well-documented or may be subject to interpretation. Without clear instructions or descriptions, reproducing the exact preprocessing steps becomes challenging and can lead to inconsistencies in results.The authors miss the moments of correcting output and, accordingly, input data during pipeline execution;
 
-The last two items of this list of shortcomings also apply to the other two articles.
+The first item on the list of shortcomings and the last two items also apply to the other two articles.
 
 ## References
 ------------
