@@ -105,7 +105,7 @@ __Objectives:__
 
 ## Pipeline of the project:
 ------------
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Pipeline.png) 
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Pipeline.png) 
 
 ## Our analysis tools and their versions
 ------------
@@ -150,15 +150,15 @@ __Building tree + dating:__
 ------------
 “Must have” list with essential for replication checkpoints:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_3.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/check_list_3.png)
 
 Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_2.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/check_list_2.png)
 
 “Must have” list with essential for this kind of phylogenetic analysis:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/check_list_1.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/check_list_1.png)
 
 __Moskalenko_1.ipynb:__
 
@@ -168,7 +168,7 @@ According to one of the articles, a comparative analysis of the use of tools at 
 
 6 tools for multiple alignment were used, as a result, the tool (MUSCLE) used by the authors of the article did not show particularly great benefits in its use:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/muscle_compare.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/muscle_compare.png)
 
 Our analysis showed that kalign tool wins on all indicators based on our data.
 
@@ -180,51 +180,51 @@ Although this was not stated in the article, but by the look of our alignments, 
 
 Dataset 1:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr_1_UG.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_1_UG.png)
 
 Dataset 2: 
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr_2_UG.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_2_UG.png)
 
 All without without gaps in the data:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr_all_UG.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_all_UG.png)
 
 The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/model.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model.png)
 
 In general, we believe that both tools have come to about the same thing. However, in the article, again, this point was omitted and it is not even known which of the tools was used to select the model, or at least which model of evolution they selected and by what criterion (BIC or AIC).
 
 Our ML-trees were built in RAxML-NG and in IQ-TREE , but the optimal solution seemed to be to use IQ-TREE, since it worked faster. Two libraries have also been tried for tree visualization: in R ggtree and in Python from Bio import Phylo, since they are the easiest to install for reproducibility of results.
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr1_r_p.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/gr2_r_p.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr1_r_p.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr2_r_p.png)
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/all_r_p.png)
 The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogenetic position of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.11.06.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.11.16.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.06.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.16.png)
 
 __Bystricky.ipynb:__
 
 One of the main problems of this article is the lack of source data, we found only alignment files in the appendix to the article. We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/models_b.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/models_b.png)
 
 Next, trees were built using RAxML-NG and in IQ-TREE, and using the python module from Bio import Phylo, they were visualized.
 If we do not consider it at a detailed level, then the resulting trees almost coincide in topology (all drawings can be seen in the Bystricky.ipynb file) with the trees given in the appendix to the article:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.10.21.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.10.36.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.10.48.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.21.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.36.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.48.png)
 
 For 28S, which is homozygous and lineages exhibit reciprocal monophyly (except CWE D), we applied both a tree-based and a distance-based method. For the former we used mPTP and for the latter ASAP.
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/first_tools.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/second_tools.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/first_tools.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/second_tools.png)
 
 The EF1a marker: graphical version of the conspecificity matrix:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/third_tools.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/third_tools.png)
 
 ## Summary
 ------------
