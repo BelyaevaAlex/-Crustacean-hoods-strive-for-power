@@ -218,6 +218,13 @@ If we do not consider it at a detailed level, then the resulting trees almost co
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.10.36.png)
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Снимок%20экрана%202023-05-22%20в%2009.10.48.png)
 
+For 28S, which is homozygous and lineages exhibit reciprocal monophyly (except CWE D), we applied both a tree-based and a distance-based method. For the former we used mPTP and for the latter ASAP.
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/first_tools.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/second_tools.png)
+
+The EF1a marker: graphical version of the conspecificity matrix:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/third_tools.png)
 
 ## Summary
 ------------
