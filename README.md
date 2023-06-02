@@ -1,21 +1,22 @@
 # The reproducibility of the Crustacean phylogenetic analyses on open source data
 ---------------------------------------------------------------------------------------
 
-Authors and their affilations:
-- Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex), MSU +BI
-- Alexandr Zhuravlev [@Baragozin](https://github.com/Baragozin), PNPI + BI
+## Authors and their affilations:
+- **Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex)**, MSU +BI
+- **Alexandr Zhuravlev [@Baragozin](https://github.com/Baragozin)**, PNPI + BI
 
-Scientific supervisor and her affilation:
-- Polina Drozdova, ISU · Institute of Biology
+## Scientific supervisor and her affilation:
+- **Polina Drozdova**, ISU · Institute of Biology
 
 ## Introduction
-------------
+
 In phylogenetic studies, the problem of reproducibility of data is a major issue. This problem arises due to several factors, including the complexity of the data, the use of different methods and software packages, and the lack of standardization in reporting results. The use of different methods and software packages can lead to different results, which makes it difficult to compare and reproduce results. Additionally, the lack of standardization in reporting results makes it difficult for other researchers to reproduce the same results. 
 
 This project examined the issue of phylogenetic analysis reproducibility in a number of studies on freshwater crustaceans based on open data. 
+
 ## Data
-------------
-__1. Moskalenko: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
+
+__1. Moskalenko [^1]: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
 as outgroups.__
 
 Reproducibly extracting data from NCBI with the help of Entrez Utilities (E-Utils) is possible:
@@ -60,11 +61,11 @@ sequences = handle.read()
 
 However, transcriptome assemblies were sometimes mixed among the sequences, which had to be worked with using blastn.
 
-__2. Bystřický: Individual lines of G. fossarum in their contact zone in the Western Carpathians are being studied.__
+__2. Bystřický [^2]: Individual lines of G. fossarum in their contact zone in the Western Carpathians are being studied.__
 
 There is no source data. But there is an archive already with ready alignments in supporting information: https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Flno.12239&file=lno12239-sup-0007-DataS1.zip 
 
-__3. Bukin: Specimens of the amphipod G. fasciatus were collected in the littoral zone of Lake Baikal + previously published in pop-set data.__
+__3. Bukin [^3]: Specimens of the amphipod G. fasciatus were collected in the littoral zone of Lake Baikal + previously published in pop-set data.__
 
 URL-link for pop-set data:
 https://www.ncbi.nlm.nih.gov/popset/376403838
@@ -77,7 +78,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/MG214957.1/
 MG214958:
 https://www.ncbi.nlm.nih.gov/nuccore/MG214958.1/
 
-__4. Wattier: COI sequences for the DNA-barcode region were either newly generated or derived from the literature for 4926 Gammarus fossarum individuals, from 498 sampling sites distributed throughout 19 European countries.__
+__4. Wattier [^4]: COI sequences for the DNA-barcode region were either newly generated or derived from the literature for 4926 Gammarus fossarum individuals, from 498 sampling sites distributed throughout 19 European countries.__
 
 All these sequences were derived into three groups.
 
@@ -91,7 +92,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/?term=MT411018:MT411480[pacc]
 http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-GFOSCDEU
 
 ## Aim and objectives:
-------------
+
 The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
 
 __Objectives:__
@@ -104,11 +105,11 @@ __Objectives:__
 7. creation of “must have” list with essential for replication checkpoints
 
 ## Pipeline of the project:
-------------
+
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Pipeline.png) 
 
 ## Our analysis tools and their versions
-------------
+
 __Data preparation:__
 
 - The GenBank database:  https://www.ncbi.nlm.nih.gov/genbank/ 
@@ -147,7 +148,7 @@ __Building tree + dating:__
 - RAxML-NG v. 0.9.0: https://github.com/amkozlov/raxml-ng 
 
 ## Results
-------------
+
 __Moskalenko_1.ipynb:__
 
 Also to process the data from both the source and the tools obtained during the application, 3 small scripts were written to generate the correct input data for the next tools in the queue of our pipeline tools. All of them are presented in the file Moskalenko_1.ipynb. For convenience, they are designed in the form of functions.
@@ -254,7 +255,7 @@ It isn’t possible to compare trees, due to the Jawa heap space error, which ha
 
 
 ## Summary
-------------
+
 Two of the four articles should be considered complex and poorly reproducible for the following reasons:
 
 1. Lack of code availability: One of the main challenges in reproducing phylogenetic analyses is the unavailability of the code used in the analysis. Without access to the original code, it becomes difficult for other researchers to understand and replicate the analysis. This lack of transparency can hinder the reproducibility of the results;
@@ -285,10 +286,10 @@ Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 
 ## References
 ------------
-- [Moskalenko, V. N.; Neretina, T. V.; Yampolsky, L. Y. To the origin of Lake Baikal endemic gammarid radiations, with description of two new Eulimnogammarus spp. Zootaxa 4766(3), 457-471 (2020). https://doi.org/10.11646/ZOOTAXA.4766.3.5](https://www.mapress.com/zt/article/view/zootaxa.4766.3.5)
-- [Bukin, Y.S., Petunina, J.V. & Sherbakov, D.Y. The Mechanisms for Genetic Diversity of Baikal Endemic Amphipod Gmelinoides fasciatus: Relationships between the Population Processes and Paleoclimatic History of the Lake. Russ J Genet 54, 1059–1068 (2018). https://doi.org/10.1134/S1022795418090053](https://link.springer.com/article/10.1134/S1022795418090053#citeas)
-- [Bystřický, P.K., Rutová, T., Brož, V., Gajdošová, M., Juračka, P.J., Copilaş-Ciocianu, D. and Petrusek, A. Distribution patterns at different spatial scales reveal reproductive isolation and frequent syntopy among divergent lineages of an amphipod species complex in Western Carpathian streams. Limnol Oceanogr 67, 2796-2808 (2022). https://doi.org/10.1002/lno.12239](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12239)
-- [Wattier, R., Mamos, T., Copilaş-Ciocianu, D. et al. Continental-scale patterns of hyper-cryptic diversity within the freshwater model taxon Gammarus fossarum (Crustacea, Amphipoda). Sci Rep 10, 16536 (2020). https://doi.org/10.1038/s41598-020-73739-0](https://www.nature.com/articles/s41598-020-73739-0)
+[^1]:[Moskalenko, V. N.; Neretina, T. V.; Yampolsky, L. Y. To the origin of Lake Baikal endemic gammarid radiations, with description of two new Eulimnogammarus spp. Zootaxa 4766(3), 457-471 (2020). https://doi.org/10.11646/ZOOTAXA.4766.3.5](https://www.mapress.com/zt/article/view/zootaxa.4766.3.5)
+[^2]:[Bukin, Y.S., Petunina, J.V. & Sherbakov, D.Y. The Mechanisms for Genetic Diversity of Baikal Endemic Amphipod Gmelinoides fasciatus: Relationships between the Population Processes and Paleoclimatic History of the Lake. Russ J Genet 54, 1059–1068 (2018). https://doi.org/10.1134/S1022795418090053](https://link.springer.com/article/10.1134/S1022795418090053#citeas)
+[^3]:[Bystřický, P.K., Rutová, T., Brož, V., Gajdošová, M., Juračka, P.J., Copilaş-Ciocianu, D. and Petrusek, A. Distribution patterns at different spatial scales reveal reproductive isolation and frequent syntopy among divergent lineages of an amphipod species complex in Western Carpathian streams. Limnol Oceanogr 67, 2796-2808 (2022). https://doi.org/10.1002/lno.12239](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12239)
+[^4]:[Wattier, R., Mamos, T., Copilaş-Ciocianu, D. et al. Continental-scale patterns of hyper-cryptic diversity within the freshwater model taxon Gammarus fossarum (Crustacea, Amphipoda). Sci Rep 10, 16536 (2020). https://doi.org/10.1038/s41598-020-73739-0](https://www.nature.com/articles/s41598-020-73739-0)
 
 
 
