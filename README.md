@@ -148,18 +148,6 @@ __Building tree + dating:__
 
 ## Results
 ------------
-“Must have” list with essential for replication checkpoints:
-
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/check_list_3.png)
-
-Our list of shortcomings, typos, inconsistencies in the articles reviewed:
-
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/check_list_2.png)
-
-“Must have” list with essential for this kind of phylogenetic analysis:
-
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/check_list_1.png)
-
 __Moskalenko_1.ipynb:__
 
 Also to process the data from both the source and the tools obtained during the application, 3 small scripts were written to generate the correct input data for the next tools in the queue of our pipeline tools. All of them are presented in the file Moskalenko_1.ipynb. For convenience, they are designed in the form of functions.
@@ -280,6 +268,20 @@ Two of the four articles should be considered complex and poorly reproducible fo
 5. Ambiguities in data preprocessing: Preprocessing steps, such as sequence alignment or data filtering, are crucial in phylogenetic analysis. However, the specific details of these steps are often not well-documented or may be subject to interpretation. Without clear instructions or descriptions, reproducing the exact preprocessing steps becomes challenging and can lead to inconsistencies in results.The authors miss the moments of correcting output and, accordingly, input data during pipeline execution;
 
 The first item on the list of shortcomings and the last two items also apply to the other two articles.
+
+Summarizing all of the above, we have prepared the following checklists that can help in reproducing and writing articles on phylogenetic analysis:
+
+“Must have” list with essential for replication checkpoints:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/1.png)
+
+Our list of shortcomings, typos, inconsistencies in the articles reviewed:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/2.png)
+
+“Must have” list with essential for this kind of phylogenetic analysis:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/3.png)
 
 ## References
 ------------
