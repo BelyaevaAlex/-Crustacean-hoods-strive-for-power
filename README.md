@@ -1,11 +1,11 @@
 # The reproducibility of the Crustacean phylogenetic analyses on open source data
 ---------------------------------------------------------------------------------------
 
-## Authors and their affilations:
+**Authors and their affilations:**
 - **Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex)**, MSU +BI
 - **Alexandr Zhuravlev [@Baragozin](https://github.com/Baragozin)**, PNPI + BI
 
-## Scientific supervisor and her affilation:
+**Scientific supervisor and her affilation:**
 - **Polina Drozdova**, ISU · Institute of Biology
 
 ## Introduction
