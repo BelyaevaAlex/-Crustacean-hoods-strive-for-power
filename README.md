@@ -126,6 +126,7 @@ __Objectives:__
 <a name="sec5"></a>
 ## Repository structure
 - [image](/image) contains figures for README.md you are currently reading
+- [checklists](/checklists) in this folder you can find all our checklists in all types
 
 <a name="sec6"></a>
 ## Our analysis tools and their versions
