@@ -174,9 +174,15 @@ __Building tree + dating:__
 <a name="sec7"></a>
 ## Results
 
-__Moskalenko_1.ipynb:__
+### Moskalenko:
 
-Also to process the data from both the source and the tools obtained during the application, 3 small scripts were written to generate the correct input data for the next tools in the queue of our pipeline tools. All of them are presented in the file Moskalenko_1.ipynb. For convenience, they are designed in the form of functions.
+**Preparing data for alignment:**
+
+The article describes two new species of Baikal gammarids, Eulimnogammarus trengove sp. nov. and Eulimnogammarus tchernykhi sp. nov., with some morphology indicating a basal position within the radiation, but strangely, with further concatenation of the data, we have not to consider them due to the lack of data provided in the article. In addition, the description of datasets that was presented in the methods and materials section does not contain these two types of Baikal gammarids. In addition, a rather interesting fact is that by the type of phylogenetic trees in the article, it seems that the data was still divided into two datasets in a slightly different way (this can be judged due to the difference and the number of species under consideration).
+
+Also to process the data from both the source and the tools obtained during the application, a few small scripts were written to generate the correct input data for the next tools in the queue of our pipeline tools. All of them are presented in the file [Datasets.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Datasets.ipynb) file. For convenience, they are designed in the form of functions.
+
+**Multiple alignment and trimming:**
 
 According to one of the articles, a comparative analysis of the use of tools at different stages of our analysis was carried out. 
 
@@ -187,8 +193,6 @@ According to one of the articles, a comparative analysis of the use of tools at 
 Our analysis showed that kalign tool wins on all indicators based on our data.
 
 Further, at the stage of data concatenation, it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation: https://www.megasoftware.net/web_help_10/Concatenation_Utility.htm
-
-__Moskalenko_2.ipynb:__
 
 Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage, as mentioned earlier.
 
@@ -219,7 +223,7 @@ The article described two new species of Baikal gammarids, Eulimnogammarus eting
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.06.png)
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.16.png)
 
-__Bystricky.ipynb:__
+### Bystricky:
 
 One of the main problems of this article is the lack of source data, we found only alignment files in the appendix to the article. We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
 
