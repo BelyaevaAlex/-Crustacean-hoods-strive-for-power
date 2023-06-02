@@ -13,7 +13,7 @@ Bright design: [check_list_3.pdf](https://github.com/BelyaevaAlex/-Crustacean-ho
 
 Design of the report: [Checklists-2.pdf](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/checklists/Checklists-2.pdf)
 
-Bright design:[check_list_2.pdf](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/checklists/check_list_2.pdf)
+Bright design: [check_list_2.pdf](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/checklists/check_list_2.pdf)
 
 **“Must have” list with essential for this kind of phylogenetic analysis:**
 
