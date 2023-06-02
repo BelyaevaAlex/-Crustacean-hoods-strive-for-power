@@ -294,15 +294,15 @@ The first item on the list of shortcomings and the last two items also apply to 
 
 Summarizing all of the above, we have prepared the following checklists that can help in reproducing and writing articles on phylogenetic analysis:
 
-“Must have” list with essential for replication checkpoints:
+**“Must have” list with essential for replication checkpoints:**
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/1.png)
 
-Our list of shortcomings, typos, inconsistencies in the articles reviewed:
+**Our list of shortcomings, typos, inconsistencies in the articles reviewed:**
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/2.png)
 
-“Must have” list with essential for this kind of phylogenetic analysis:
+**“Must have” list with essential for this kind of phylogenetic analysis:**
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/3.png)
 
