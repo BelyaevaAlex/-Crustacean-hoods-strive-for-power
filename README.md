@@ -120,18 +120,19 @@ __Alignment + trimming:__
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
 - Unipro UGENE вер. 46.0 (64-bit version): https://ugene.net/ru/ 
 - Jalview (version: 2.11.2.6): https://www.jalview.org/download/macos/ 
-- CLUSTAL 2.1 Multiple Sequence Alignments
-- MUSCLE v3.8.1551 by Robert C. Edgar
-- MAFFT v7.490 (2021/Oct/30)
-- Kalign (3.3.1)
-- T-COFFEE Version_13.41.0.28bdc39 (2019-11-30 10:21:53 - Revision 5d5a1c1 - Build 465)
-- EMBOSS:6.6.0.0
-- Clustal Omega - 1.2.4 (AndreaGiacomo)
+- CLUSTAL 2.1 Multiple Sequence Alignments: http://www.clustal.org
+- MUSCLE v3.8.1551 by Robert C. Edgar: https://apolo-docs.readthedocs.io/en/latest/software/applications/MUSCLE/index.html
+- MAFFT v7.490 (2021/Oct/30): https://mafft.cbrc.jp/alignment/software/
+- Kalign (3.3.1): https://github.com/TimoLassmann/kalign
+- T-COFFEE Version_13.41.0.28bdc39 (2019-11-30 10:21:53 - Revision 5d5a1c1 - Build 465): https://tcoffee.org/Projects/tcoffee/index.html
+- EMBOSS:6.6.0.0: http://en.bio-soft.net/format/emboss.html
 - trimAl v1.2: http://trimal.cgenomics.org/downloads 
 
 __Data concatenation and partitions:__
 
 - Catfasta2phyml v.1.2.0 : https://github.com/nylander/catfasta2phyml 
+- MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
+
 
 __Best-fitting evolutionary models:__
 
