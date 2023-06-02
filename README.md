@@ -2,18 +2,31 @@
 ---------------------------------------------------------------------------------------
 
 **Authors and their affilations:**
-- **Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex)**, MSU +BI
-- **Alexandr Zhuravlev [@Baragozin](https://github.com/Baragozin)**, PNPI + BI
+- Alexandra Belyaeva [@BelyaevaAlex](https://github.com/BelyaevaAlex), MSU +BI
+- Alexandr Zhuravlev [@Baragozin](https://github.com/Baragozin), PNPI + BI
 
 **Scientific supervisor and her affilation:**
-- **Polina Drozdova**, ISU · Institute of Biology
+- Polina Drozdova, ISU · Institute of Biology
 
+## Table of contents:
+- [Introduction](#sec1) </br>
+- [Data](#sec2) </br>
+- [Aim and objectives](#sec3) </br>
+- [Pipeline of the project](#sec4) </br>
+- [Repository structure](#sec5) </br> 
+- [Our analysis tools and their versions](#sec6) </br>
+- [Results](#sec7) </br>
+- [Summary](#sec8) </br> 
+- [References](#sec9) </br>
+
+<a name="sec1"></a>
 ## Introduction
 
 In phylogenetic studies, the problem of reproducibility of data is a major issue. This problem arises due to several factors, including the complexity of the data, the use of different methods and software packages, and the lack of standardization in reporting results. The use of different methods and software packages can lead to different results, which makes it difficult to compare and reproduce results. Additionally, the lack of standardization in reporting results makes it difficult for other researchers to reproduce the same results. 
 
 This project examined the issue of phylogenetic analysis reproducibility in a number of studies on freshwater crustaceans based on open data. 
 
+<a name="sec2"></a>
 ## Data
 
 __1. Moskalenko [^1]: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
@@ -91,9 +104,10 @@ https://www.ncbi.nlm.nih.gov/nuccore/?term=MT411018:MT411480[pacc]
 3.Sequences and metadata are available in BOLD dataset DS-GFOSCDEU.
 http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-GFOSCDEU
 
-## Aim and objectives:
+<a name="sec3"></a>
+## Aim and objectives
 
-The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
+__Goal:__ The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
 
 __Objectives:__
 1. searching for the vault of data  (literature review, blastn, NCBI database search due to data errors, study of additional materials)
@@ -104,10 +118,16 @@ __Objectives:__
 6. creation of  a list of shortcomings, typos, inconsistencies in the articles reviewed
 7. creation of “must have” list with essential for replication checkpoints
 
-## Pipeline of the project:
+<a name="sec4"></a>
+## Pipeline of the project
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Pipeline.png) 
 
+<a name="sec5"></a>
+## Repository structure
+- [image](/image) contains figures for README.md you are currently reading
+
+<a name="sec6"></a>
 ## Our analysis tools and their versions
 
 __Data preparation:__
@@ -148,6 +168,7 @@ __Building tree + dating:__
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
 - RAxML-NG v. 0.9.0: https://github.com/amkozlov/raxml-ng 
 
+<a name="sec7"></a>
 ## Results
 
 __Moskalenko_1.ipynb:__
@@ -254,7 +275,7 @@ It isn’t possible to compare trees, due to the Jawa heap space error, which ha
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Watier.PNG)
 
-
+<a name="sec8"></a>
 ## Summary
 
 Two of the four articles should be considered complex and poorly reproducible for the following reasons:
@@ -285,6 +306,7 @@ Our list of shortcomings, typos, inconsistencies in the articles reviewed:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/3.png)
 
+<a name="sec9"></a>
 ## References
 
 [^1]:[Moskalenko, V. N.; Neretina, T. V.; Yampolsky, L. Y. To the origin of Lake Baikal endemic gammarid radiations, with description of two new Eulimnogammarus spp. Zootaxa 4766(3), 457-471 (2020). https://doi.org/10.11646/ZOOTAXA.4766.3.5](https://www.mapress.com/zt/article/view/zootaxa.4766.3.5)
