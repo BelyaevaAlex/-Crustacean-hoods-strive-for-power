@@ -140,7 +140,7 @@ __Data preparation:__
 - The GenBank database:  https://www.ncbi.nlm.nih.gov/genbank/ 
 - Nucleotide BLAST : https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome
 
-__Alignment + trimming:__
+__Alignment:__
 
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
 - Unipro UGENE вер. 46.0 (64-bit version): https://ugene.net/ru/ 
@@ -151,13 +151,15 @@ __Alignment + trimming:__
 - Kalign (3.3.1): https://github.com/TimoLassmann/kalign
 - T-COFFEE Version_13.41.0.28bdc39 (2019-11-30 10:21:53 - Revision 5d5a1c1 - Build 465): https://tcoffee.org/Projects/tcoffee/index.html
 - EMBOSS:6.6.0.0: http://en.bio-soft.net/format/emboss.html
+
+__Trimming:__
+
 - trimAl v1.2: http://trimal.cgenomics.org/downloads 
 
 __Data concatenation and partitions:__
 
 - Catfasta2phyml v.1.2.0 : https://github.com/nylander/catfasta2phyml 
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
-
 
 __Best-fitting evolutionary models:__
 
@@ -184,7 +186,7 @@ The article describes two new species of Baikal gammarids, Eulimnogammarus treng
 
 Also to process the data from both the source and the tools obtained during the application, a few small scripts were written to generate the correct input data for the next tools in the queue of our pipeline tools. All of them are presented in the file [Datasets.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Datasets.ipynb) file. For convenience, they are designed in the form of functions.
 
-**Multiple alignment and trimming:**
+**Multiple alignment:**
 
 According to one of the articles, a comparative analysis of the use of tools at different stages of our analysis was carried out. 
 
@@ -193,8 +195,6 @@ According to one of the articles, a comparative analysis of the use of tools at 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/muscle_compare.png)
 
 Our analysis [Multiple_al_and_trim.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Multiple_al_and_trim.ipynb) showed that kalign tool wins on all indicators based on our data.
-
-Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage.
 
 **Data concatenation:**
 
@@ -211,6 +211,10 @@ Dataset 2:
 All sequences without gaps in the data:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_all_UG.png)
+
+**Trimming:**
+
+Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage.
 
 The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
