@@ -192,9 +192,9 @@ According to one of the articles, a comparative analysis of the use of tools at 
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/muscle_compare.png)
 
-Our analysis showed that kalign tool wins on all indicators based on our data.
+Our analysis [Multiple_al_and_trim.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Multiple_al_and_trim.ipynb) showed that kalign tool wins on all indicators based on our data.
 
-Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage, as mentioned earlier.
+Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage.
 
 **Data concatenation:**
 
