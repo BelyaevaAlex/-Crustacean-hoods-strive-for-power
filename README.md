@@ -192,9 +192,11 @@ According to one of the articles, a comparative analysis of the use of tools at 
 
 Our analysis showed that kalign tool wins on all indicators based on our data.
 
-Further, at the stage of data concatenation, it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation: https://www.megasoftware.net/web_help_10/Concatenation_Utility.htm
-
 Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage, as mentioned earlier.
+
+**Data concatenation:**
+
+Further, at the stage of data concatenation, it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation.
 
 Dataset 1:
 
@@ -204,7 +206,7 @@ Dataset 2:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_2_UG.png)
 
-All without without gaps in the data:
+All sequences without gaps in the data:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_all_UG.png)
 
@@ -225,7 +227,22 @@ The article described two new species of Baikal gammarids, Eulimnogammarus eting
 
 ### Bystricky:
 
-One of the main problems of this article is the lack of source data, we found only alignment files in the appendix to the article. We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
+**Preparing data for alignment:**
+
+One of the main problems of this article is the lack of source data, we found only alignment files in the appendix to the article (supporting information).
+
+Without having the source data, it is quite difficult to judge how the alignment files were obtained, besides, in the future we will face the difficulty that the files are not concatenated due to the fact that they contain different sequences and in different order.
+
+**Multiple alignment and trimming:**
+
+It is impossible to reproduce these results, the trimming stage was also not described in the article, so in order to avoid any errors, it was not performed.
+
+**Data concatenation:**
+
+This cannot be reproduced using the provided alignment files. In addition, according to the type of phylogenetic trees, they may have been analyzed separately.
+
+
+We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/models_b.png)
 
