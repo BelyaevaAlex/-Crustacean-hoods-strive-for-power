@@ -9,15 +9,15 @@
 - Polina Drozdova, ISU · Institute of Biology
 
 ## Table of contents:
-- [^Introduction](#sec1) </br>
-- [^Data](#sec2) </br>
-- [^Aim and objectives](#sec3) </br>
-- [^Pipeline of the project](#sec4) </br>
-- [^Repository structure](#sec5) </br> 
-- [^Our analysis tools and their versions](#sec6) </br>
-- [^Results](#sec7) </br>
-- [^Summary](#sec8) </br> 
-- [^References](#sec9) </br>
+- [Introduction](#sec1) </br>
+- [Data](#sec2) </br>
+- [Aim and objectives](#sec3) </br>
+- [Pipeline of the project](#sec4) </br>
+- [Repository structure](#sec5) </br> 
+- [Our analysis tools and their versions](#sec6) </br>
+- [Results](#sec7) </br>
+- [Summary](#sec8) </br> 
+- [References](#sec9) </br>
 
 <a name="sec1"></a>
 ## Introduction
