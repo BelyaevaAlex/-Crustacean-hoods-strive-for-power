@@ -1,0 +1,10 @@
+name: Crustacean_hoods
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - iqtree=2.0.3=h7eed37d_1
+  - muscle=5.1=h09c63de_2
+  - pip=23.0.1=py39hecd8cb5_0
+  - python=3.9.16=h218abb5_2
+  - trimal=1.4.1=hb3ea9af_7
