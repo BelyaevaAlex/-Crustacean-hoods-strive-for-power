@@ -198,7 +198,7 @@ Our analysis [Multiple_al.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoo
 
 **Data concatenation:**
 
-Further, at the stage of data concatenation, it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation.
+Further, at the stage of data concatenation ([Data_concatenation.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Data_concatenation.ipynb)), it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation.
 
 Dataset 1:
 
@@ -214,7 +214,9 @@ All sequences without gaps in the data:
 
 **Trimming:**
 
-Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage [Trimming.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Trimming.ipynb).
+Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage. This step of our pipeline is presented in the [Trimming.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Trimming.ipynb) file.
+
+**The selection of the evolutionary model:**
 
 The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
@@ -247,6 +249,7 @@ It is impossible to reproduce these results, the trimming stage was also not des
 
 This cannot be reproduced using the provided alignment files. In addition, according to the type of phylogenetic trees, they may have been analyzed separately.
 
+**The selection of the evolutionary model:**
 
 We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
 
