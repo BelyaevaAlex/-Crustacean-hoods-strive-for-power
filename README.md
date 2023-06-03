@@ -133,7 +133,17 @@ __Objectives:__
 <a name="sec6"></a>
 ## Our analysis tools and their versions
 
-In view of the fact that, in addition to the reproducibility task, it was decided to try, test, and compare as many tools as possible, unfortunately, it is not possible to not create one virtual environment due to the inconsistency of the versions of the required programs. However, if you only want to replicate our research without comparison, then all the necessary programs can be found in the file `Crustacean_hoods.yml` in order to create a reproducible conda environment using this file.
+In view of the fact that, in addition to the reproducibility task, it was decided to try, test, and compare as many tools as possible, unfortunately, it is not possible to not create one virtual environment due to the inconsistency of the versions of the required programs. However, if you only want to replicate our research without comparison, then all the necessary programs can be found in the file `Crustacean_hoods.yml` in order to create a reproducible conda environment using this file. To visualize trees, it is better to use the R - package `ggtree`:
+To install this package, start R (version "4.3") and enter:
+
+```
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("ggtree")
+```
+
+The rest of the programs (MEGA 11, BEAST v2.7.4 ) are installed as regular applications on your computer, the process varies depending on the operating system.
 
 __Data preparation:__
 
