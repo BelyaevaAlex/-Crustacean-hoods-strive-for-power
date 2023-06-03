@@ -217,8 +217,9 @@ All sequences without gaps in the data:
 Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage. This step of our pipeline is presented in the [Trimming.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Trimming.ipynb) file.
 
 **The selection of the evolutionary model:**
+In this article, this stage is skipped and it is simply written in the methods and materials section that an ML tree is being built in MEGA7.
 
-The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
+Our selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model.png)
 
