@@ -214,7 +214,7 @@ All sequences without gaps in the data:
 
 **Trimming:**
 
-Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage [Trimming.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Trimming.ipynb.
+Although this was not stated in the article, but by the look of our alignments, it was decided not to skip the trimming stage [Trimming.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Trimming.ipynb).
 
 The selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
