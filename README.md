@@ -259,8 +259,10 @@ We also refuse to use the PartitionFinder tool, since it is quite difficult to i
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/models_b.png)
 
+**Building ML-trees:**
+
 Next, trees were built using RAxML-NG and in IQ-TREE, and using the python module from Bio import Phylo, they were visualized.
-If we do not consider it at a detailed level, then the resulting trees almost coincide in topology (all drawings can be seen in the Bystricky.ipynb file) with the trees given in the appendix to the article:
+If we do not consider it at a detailed level, then the resulting trees almost coincide in topology with the trees given in the appendix to the article:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.21.png)
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.36.png)
