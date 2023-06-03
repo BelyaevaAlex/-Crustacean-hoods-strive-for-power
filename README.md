@@ -133,7 +133,7 @@ __Objectives:__
 <a name="sec6"></a>
 ## Our analysis tools and their versions
 
-In view of the fact that, in addition to the reproducibility task, it was decided to try, test, and compare as many tools as possible, unfortunately, it is not possible to not create one virtual environment due to the inconsistency of the versions of the required programs. However, if you only want to replicate our research without comparison, then all the necessary programs can be found in the file `requirements.yml`.
+In view of the fact that, in addition to the reproducibility task, it was decided to try, test, and compare as many tools as possible, unfortunately, it is not possible to not create one virtual environment due to the inconsistency of the versions of the required programs. However, if you only want to replicate our research without comparison, then all the necessary programs can be found in the file `Crustacean_hoods.yml` in order to create a reproducible conda environment using this file.
 
 __Data preparation:__
 
@@ -174,6 +174,10 @@ __Building tree + dating:__
 - IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020: http://www.iqtree.org
 - MEGA 11 (11.0.10) for macOS: https://www.megasoftware.net  
 - RAxML-NG v. 0.9.0: https://github.com/amkozlov/raxml-ng 
+
+__Visualization of trees:__
+- IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020: http://www.iqtree.org
+- ggtree 3.8.0: https://www.bioconductor.org/packages/release/bioc/html/ggtree.html
 
 <a name="sec7"></a>
 ## Results
