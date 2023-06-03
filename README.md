@@ -218,13 +218,15 @@ Although this was not stated in the article, but by the look of our alignments, 
 
 **The selection of the evolutionary model:**
 
-In this article, this stage is skipped and it is simply written in the methods and materials section that an ML tree is being built in MEGA7.
+In this article, this stage is skipped and it is simply written in the methods and materials section that an ML-tree is being built in MEGA7.
 
 Our selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model.png)
 
 In general, we believe that both tools have come to about the same thing. However, in the article, again, this point was omitted and it is not even known which of the tools was used to select the model, or at least which model of evolution they selected and by what criterion (BIC or AIC).
+
+**Building ML-trees:**
 
 Our ML-trees were built in RAxML-NG and in IQ-TREE , but the optimal solution seemed to be to use IQ-TREE, since it worked faster. Two libraries have also been tried for tree visualization: in R ggtree and in Python from Bio import Phylo, since they are the easiest to install for reproducibility of results.
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr1_r_p.png)
@@ -253,7 +255,7 @@ This cannot be reproduced using the provided alignment files. In addition, accor
 
 **The selection of the evolutionary model:**
 
-We also refuse to use the PartitionFinder tool, since it is quite difficult to install and we will better select an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
+We also refuse to use the PartitionFinder tool, since it is quite difficult to install and in addition, it was not even indicated which model was chosen and by what criteria. Therefore, we chose an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/models_b.png)
 
