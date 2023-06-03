@@ -1,11 +1,11 @@
 name: requirements
 channels:
-	- conda-forge
-	- bioconda
-	- defaults
+   - conda-forge
+   - bioconda
+   - defaults
 dependencies:
-	- python>=3.9
-	- muscle==3.8.31
-	- raxml-ng==0.9.0
-	- trimal==1.2
-	- iqtree==2.0.3
+   - python>=3.9
+   - muscle==3.8.31
+   - trimal==1.2
+   - raxml-ng==0.9.0
+   - iqtree==2.0.3
