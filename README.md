@@ -220,7 +220,7 @@ Although this was not stated in the article, but by the look of our alignments, 
 
 In this article, this stage is skipped and it is simply written in the methods and materials section that an ML-tree is being built in MEGA7.
 
-Our selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE:
+Our selection of the evolutionary model was performed using both ModelTest (ModelTest-NG) and ModelFinder in IQ-TREE ([Evolution_model.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Evolution_model.ipynb)):
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model_m.png)
 
@@ -255,7 +255,7 @@ This cannot be reproduced using the provided alignment files. In addition, accor
 
 **The selection of the evolutionary model:**
 
-We also refuse to use the PartitionFinder tool, since it is quite difficult to install and in addition, it was not even indicated which model was chosen and by what criteria. Therefore, we chose an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
+We also refuse to use the PartitionFinder tool, since it is quite difficult to install and in addition, it was not even indicated which model was chosen and by what criteria. Therefore, we chose an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC ([Ev_model.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Bystricky/Ev_model.ipynb)):
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model_b.png)
 
