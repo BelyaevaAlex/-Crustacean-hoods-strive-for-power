@@ -259,6 +259,8 @@ We also refuse to use the PartitionFinder tool, since it is quite difficult to i
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model_b.png)
 
+Apart from the last file, the tools predicted similar models.
+
 **Building ML-trees:**
 
 Next, trees were built using RAxML-NG and in IQ-TREE, and using the python module from Bio import Phylo, they were visualized.
