@@ -257,7 +257,7 @@ This cannot be reproduced using the provided alignment files. In addition, accor
 
 We also refuse to use the PartitionFinder tool, since it is quite difficult to install and in addition, it was not even indicated which model was chosen and by what criteria. Therefore, we chose an evolutionary model using two other tools (RAxML-NG and IQ-TREE) by BIC:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/models_b.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/model_b.png)
 
 **Building ML-trees:**
 
