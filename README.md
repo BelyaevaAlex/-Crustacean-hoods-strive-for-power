@@ -214,15 +214,15 @@ Our analysis [Multiple_al.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoo
 
 Further, at the stage of data concatenation ([Data_concatenation.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Data_concatenation.ipynb)), it turned out that a tool like catfasta2phyml is great for getting the output of a data splitting scheme in a file.cfg for PartitionFinder, however, concatenated our data incorrectly, which did not even allow us to trim sequences using the trimAl tool. The MEGA 11 program was chosen for concatenation.
 
-Dataset 1:
+__Dataset 1:__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_1_UG.png)
 
-Dataset 2: 
+__Dataset 2:__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_2_UG.png)
 
-All sequences without gaps in the data:
+__All sequences without gaps in the data:__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr_all_UG.png)
 
@@ -248,8 +248,15 @@ Our ML-trees were built in RAxML-NG and in IQ-TREE [ML_trees.ipynb](https://gith
 
 Next, we will present for each of our datasets the trees we obtained using the evolutionary model predicted in ModelFinder in IQ-TREE, but visualized using two different tools: with the help of the library in R ggtree and the library in Python Phylo. In this case, the drawings from the original article are not given, since it is obvious according to the previous theses, the phylogenetic type of trees will be different, since they were built according to different data.
 
+__Dataset 1::__
+
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_ml.png)
+
+__Dataset 2:__
+
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_2_ml.png)
+
+__All sequences without gaps in the data:__
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_all_ml.png)
 
 **Building BA-trees:**
