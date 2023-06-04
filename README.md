@@ -248,7 +248,7 @@ Our ML-trees were built in RAxML-NG and in IQ-TREE [ML_trees.ipynb](https://gith
 
 Next, we will present for each of our datasets the trees we obtained using the evolutionary model predicted in ModelFinder in IQ-TREE, but visualized using two different tools: with the help of the library in R ggtree and the library in Python Phylo. In this case, the drawings from the original article are not given, since it is obvious according to the previous theses, the phylogenetic type of trees will be different, since they were built according to different data.
 
-__Dataset 1::__
+__Dataset 1:__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_ml.png)
 
