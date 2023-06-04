@@ -336,7 +336,7 @@ __The main conclusions we have received:__
 
 1) Maximum likelihood family trees for each analyzed marker. 
 2) The same synthetic individuals belonging to different pedigrees were obtained, 
-3) The outer group is everywhere Gammarus pulex. 
+3) The outgroup is everywhere Gammarus pulex. 
 4) Note that both alleles of the EF1a marker are present in the tree.
 5) The haploweb method, applied on EF1a data, confirmed the lack of hybridization since each lineage harbored unique alleles.
 
