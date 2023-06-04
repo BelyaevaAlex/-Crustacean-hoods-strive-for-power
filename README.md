@@ -250,7 +250,7 @@ Next, we will present for each of our datasets the trees we obtained using the e
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_ml.png)
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_2_ml.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Group_all_ml.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_all_ml.png)
 
 **Building BA-trees:**
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.06.png)
