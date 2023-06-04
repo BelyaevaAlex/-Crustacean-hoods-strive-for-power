@@ -338,13 +338,15 @@ __The main conclusions we have received:__
 
 __Bukin:__
 
-There was no information about trimming in the original paper. It was decided to make one with -automated1 setting.
+The alignment was done using UGENE software Muscle tool. There was no information about trimming in the original paper. It was decided to make one with -automated1 setting.
+
+Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bukin_no_trim.png)
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bukin_trim.png)
 
-In the original article the best-fitting GTR model with gamma correction (GTR + G) was used for phylogenetic analysis. During the replication was got another model.
+_jmodeltest_ software and the BIC creteria was used for model choice. In the original article the best-fitting GTR model with gamma correction (GTR + G) was used for phylogenetic analysis. During the replication was got another model.
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/1_3.PNG)
 
@@ -356,13 +358,15 @@ On the our picture we can see the original clades of Central, Northern and south
 
 __Watier:__
 
-There was no information about trimming in the original paper. But there was problem with turning on pipeline due to the sample size. So we had to trim four times with -automated1 setting.
+The alignment was done using UGENE software Muscle tool. There was no information about trimming in the original paper. But there was problem with turning on pipeline due to the sample size. So we had to trim four times with -automated1 setting.
+
+Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__ x4
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/wat_no_trim.png)
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/wat_4_trim.png)
 
-The best-fitting model of substitution was the transversion model (TVM) with gamma-distributed rate heterogeneity (G) and a given proportion of invariable sites (I). Received model matched with the original
+_bmodeltest_ package from BEAST2 software was used for model choice. The best-fitting model of substitution was the transversion model (TVM) with gamma-distributed rate heterogeneity (G) and a given proportion of invariable sites (I). Received model matched with the original.
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bmodeltest.PNG)
 
