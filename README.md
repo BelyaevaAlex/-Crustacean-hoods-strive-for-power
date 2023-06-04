@@ -307,19 +307,32 @@ Apart from the last file, the tools predicted similar models.
 **Building ML-trees:**
 
 Next, trees were built using RAxML-NG and in IQ-TREE [ML_trees_b.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Bystricky/ML_trees_b.ipynb), and using the python module from Bio import Phylo, they were visualized.
-If we do not consider it at a detailed level, then the resulting trees almost coincide in topology with the trees given in the appendix to the article:
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.21.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.36.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.48.png)
+__16S_alignment.fas:__
 
-For 28S, which is homozygous and lineages exhibit reciprocal monophyly (except CWE D), we applied both a tree-based and a distance-based method. For the former we used mPTP and for the latter ASAP.
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/first_tools.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/second_tools.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/16S_alignment_ml.png)
 
-The EF1a marker: graphical version of the conspecificity matrix:
+__28S_alignment.fas:__
 
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/third_tools.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/28S_alignment_ml.png)
+
+__EF1a_alignment_phased.fas:__
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/EF1a_alignment_phased_ml.png)
+
+The EF1a marker is heterozygous and lineages are not reciprocally monophyletic. Therefore, tree- or distance-based species delimitation methods are not applicable. Consequently, we used the haploweb method since it is specifically designed to delimit species based on such markers . The haploweb distinguishes putative species clusters based on mutual allelic exclusivity, following Doyle’s view of species as fields for recombination. It was run on the HaplowebMaker web-server (https://eeg-ebe.github.io/HaplowebMaker/):
+
+Species delimitation based on the haploweb method applied to the phased EF1a alleles. Each circle represents a unique haplotype. Haplotypes co-occurring within the same individual are connected by a colored curved line. Each tick mark represents one substitution:
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Haplotypes.png)
+
+__The main conclusions we have received:__
+
+1) Maximum likelihood family trees for each analyzed marker. 
+2) The same synthetic individuals belonging to different pedigrees were obtained, 
+3) The outer group is everywhere Gammarus pulex. 
+4) Note that both alleles of the EF1a marker are present in the tree.
+5) The haploweb method, applied on EF1a data, confirmed the lack of hybridization since each lineage harbored unique alleles.
 
 __Bukin:__
 
