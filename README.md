@@ -345,7 +345,7 @@ __The main conclusions we have received:__
 4) Note that both alleles of the EF1a marker are present in the tree.
 5) The haploweb method, applied on EF1a data, confirmed the lack of hybridization since each lineage harbored unique alleles.
 
-__Bukin:__
+### Bukin:
 
 **Multiple alignment:**
 
@@ -361,9 +361,13 @@ Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bukin_trim.png)
 
+**The selection of the evolutionary model:**
+
 _jmodeltest_ software and the BIC creteria was used for model choice. In the original article the best-fitting GTR model with gamma correction (GTR + G) was used for phylogenetic analysis. During the replication was got another model.
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/1_3.PNG)
+
+**Building ML-trees:**
 
 On the our picture we can see the original clades of Central, Northern and southwestern populations. Little difference may be the result of poor given data. 
 
@@ -371,7 +375,7 @@ On the our picture we can see the original clades of Central, Northern and south
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/all_in_one_2_trim_lognorma_strict_trees_built.txt.png)
 
-__Watier:__
+### Watier:
 
 **Multiple alignment:**
 
@@ -387,11 +391,15 @@ Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__ x4
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/wat_4_trim.png)
 
+**The selection of the evolutionary model:**
+
 _bmodeltest_ package from BEAST2 software was used for model choice. The best-fitting model of substitution was the transversion model (TVM) with gamma-distributed rate heterogeneity (G) and a given proportion of invariable sites (I). Received model matched with the original.
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bmodeltest.PNG)
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/modelIndexes.png)
+
+**Building ML-trees:**
 
 It isn’t possible to compare trees, due to the Jawa heap space error, which hasn’t been solved yet.
 
