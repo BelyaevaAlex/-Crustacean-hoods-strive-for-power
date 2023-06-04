@@ -260,6 +260,7 @@ __All sequences without gaps in the data:__
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_all_ml.png)
 
 **Building BA-trees:**
+
 Phylogenies were also reconstructed by Bayesian analysis (BA) in BEAST2:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_1_ba.png)
