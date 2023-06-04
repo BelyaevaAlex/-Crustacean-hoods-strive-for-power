@@ -108,10 +108,8 @@ All these sequences were derived into three groups.
 
 1. All newly produced COI sequences are released in GenBank under accession numbers: MT978656–MT980726.
 https://www.ncbi.nlm.nih.gov/nuccore/?term=MT978656:MT980726[pacc]
-
 2.The 463 sequences from Lagrue et al. which were initially unreleased in Genbank are now available under accession numbers: MT411018-MT411480.
 https://www.ncbi.nlm.nih.gov/nuccore/?term=MT411018:MT411480[pacc]
-
 3.Sequences and metadata are available in BOLD dataset DS-GFOSCDEU.
 http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-GFOSCDEU
 
