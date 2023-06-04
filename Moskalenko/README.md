@@ -5,3 +5,4 @@
 - Checking data concatenation using catfasta2phyml in the [Data_concatenation.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Data_concatenation.ipynb) file.
 - Trimming stage in the [Trimming.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Trimming.ipynb) file.
 - The choice of the best phylogenetic evolutionary model for constructing ML-trees using the ModelTest (ModelTest-NG) and ModelFinder (IQ-TREE) tools is recorded in the [Evolution_model.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Evolution_model.ipynb) file.
+- To build and visualize ML-trees, you can use the script from the [ML_trees.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/ML_trees.ipynb) file.
