@@ -322,6 +322,10 @@ __EF1a_alignment_phased.fas:__
 
 In the best quality of the image can be found in the [ML_trees_b.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Bystricky/ML_trees_b.ipynb) file.
 
+For 28S, which is homozygous and lineages exhibit reciprocal monophyly (except CWE D), we applied both a tree-based method. 
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/first_tools.png)
+
 The EF1a marker is heterozygous and lineages are not reciprocally monophyletic. Therefore, tree- or distance-based species delimitation methods are not applicable. Consequently, we used the haploweb method since it is specifically designed to delimit species based on such markers . The haploweb distinguishes putative species clusters based on mutual allelic exclusivity, following Doyle’s view of species as fields for recombination. It was run on the HaplowebMaker web-server (https://eeg-ebe.github.io/HaplowebMaker/):
 
 Species delimitation based on the haploweb method applied to the phased EF1a alleles. Each circle represents a unique haplotype. Haplotypes co-occurring within the same individual are connected by a colored curved line. Each tick mark represents one substitution:
