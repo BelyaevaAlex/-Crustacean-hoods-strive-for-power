@@ -347,7 +347,13 @@ __The main conclusions we have received:__
 
 __Bukin:__
 
-The alignment was done using UGENE software Muscle tool. There was no information about trimming in the original paper. It was decided to make one with -automated1 setting.
+**Multiple alignment:**
+
+The alignment was done using UGENE software Muscle tool. 
+
+**Trimming:**
+
+There was no information about trimming in the original paper. It was decided to make one with -automated1 setting.
 
 Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__
 
@@ -367,7 +373,13 @@ On the our picture we can see the original clades of Central, Northern and south
 
 __Watier:__
 
-The alignment was done using UGENE software Muscle tool. There was no information about trimming in the original paper. But there was problem with turning on pipeline due to the sample size. So we had to trim four times with -automated1 setting.
+**Multiple alignment:**
+
+The alignment was done using UGENE software Muscle tool. 
+
+**Trimming:**
+
+There was no information about trimming in the original paper. But there was problem with turning on pipeline due to the sample size. So we had to trim four times with -automated1 setting.
 
 Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__ x4
 
