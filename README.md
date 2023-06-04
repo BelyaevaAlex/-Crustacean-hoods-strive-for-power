@@ -242,14 +242,30 @@ In general, we believe that both tools have come to about the same thing. Howeve
 
 **Building ML-trees:**
 
-Our ML-trees were built in RAxML-NG and in IQ-TREE , but the optimal solution seemed to be to use IQ-TREE, since it worked faster. Two libraries have also been tried for tree visualization: in R ggtree and in Python from Bio import Phylo, since they are the easiest to install for reproducibility of results.
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr1_r_p.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/gr2_r_p.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/all_r_p.png)
-The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogenetic position of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
+Apart from the fact that the trees were built in MEGA 7, nothing else was said in the article.
 
+Our ML-trees were built in RAxML-NG and in IQ-TREE [ML_trees.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/ML_trees.ipynb), but the optimal solution seemed to be to use IQ-TREE, since it worked faster.
+
+Next, we will present for each of our datasets the trees we obtained using the evolutionary model predicted in ModelFinder in IQ-TREE, but visualized using two different tools: with the help of the library in R ggtree and the library in Python Phylo. In this case, the drawings from the original article are not given, since it is obvious according to the previous theses, the phylogenetic type of trees will be different, since they were built according to different data.
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_ml.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_2_ml.png)
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Group_all_ml.png)
+
+**Building BA-trees:**
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.06.png)
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.16.png)
+
+It is very strange that in the original article, the same authors obtained different results on phylogenetic analysis without adding new data, however, none of their articles indicate either evolutionary models for building trees, or parameters set in tools, sometimes only software versions, and then not all.
+
+__The main conclusions we have received:__
+
+1) The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogeny placement of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
+2) The hypothesis that Hyalella azteca is an Outgroup has been confirmed
+3) According to our analysis, such a unique result was not obtained, as the only species that is consistently attributed to the sister group in relation to the rest of the second Baikal radiation was Pachyschesis branchialis. 
+4) The hypothesis was confirmed: The inferred relationship of the two Baikal cades with cosmopolitan palearctic Gammarus species strongly depends on the species and genes included and phylogenetic methodology used.
+5) Finally, ML analysis suggests that Baikal’s first clade isn't sister to the basal palearctic species which contradicts the results obtained in the article.
+6) The lack of agreement between different phylogenetic methods with the low resolution allowed by limited sequence data may be interpreted as an evidence of fast ancient divergence. The hypothesis is confirmed.
 
 ### Bystricky:
 
@@ -277,7 +293,7 @@ Apart from the last file, the tools predicted similar models.
 
 **Building ML-trees:**
 
-Next, trees were built using RAxML-NG and in IQ-TREE, and using the python module from Bio import Phylo, they were visualized.
+Next, trees were built using RAxML-NG and in IQ-TREE [ML_trees_b.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Bystricky/ML_trees_b.ipynb), and using the python module from Bio import Phylo, they were visualized.
 If we do not consider it at a detailed level, then the resulting trees almost coincide in topology with the trees given in the appendix to the article:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.10.21.png)
