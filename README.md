@@ -10,10 +10,10 @@
 
 ## Table of contents:
 - [Introduction](#sec1) </br>
-- [Data](#sec2) </br>
-- [Aim and objectives](#sec3) </br>
-- [Pipeline of the project](#sec4) </br>
-- [Repository structure](#sec5) </br> 
+- [Repository structure](#sec2) </br> 
+- [Data](#sec3) </br>
+- [Aim and objectives](#sec4) </br>
+- [Pipeline of the project](#sec5) </br>
 - [Our analysis tools and their versions](#sec6) </br>
 - [Results](#sec7) </br>
 - [Summary](#sec8) </br> 
@@ -26,7 +26,19 @@ In phylogenetic studies, the problem of reproducibility of data is a major issue
 
 This project examined the issue of phylogenetic analysis reproducibility in a number of studies on freshwater crustaceans based on open data. 
 
+
 <a name="sec2"></a>
+
+## Repository structure
+- [image](/image) contains figures for README.md you are currently reading
+- [checklists](/checklists) in this folder you can find all our checklists in all types
+- [Moskalenko](/Moskalenko) contains scripts for analyzing the reproduction of Moskalenko's article [^1]
+- [Bystricky](/Bystricky) contains scripts for analyzing the reproduction of Bystricky's article [^2]
+
+NB: There are no folders called Bukin and Watier, since software applications without code are selected for them as analysis tools.
+
+<a name="sec3"></a>
+
 ## Data
 
 __1. Moskalenko [^1]: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
@@ -104,7 +116,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/?term=MT411018:MT411480[pacc]
 3.Sequences and metadata are available in BOLD dataset DS-GFOSCDEU.
 http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-GFOSCDEU
 
-<a name="sec3"></a>
+<a name="sec4"></a>
 ## Aim and objectives
 
 __Goal:__ The aim of this project was to repeat the phylogenetic research in certain articles and understand about reproducibility of results.
@@ -118,17 +130,11 @@ __Objectives:__
 6. creation of  a list of shortcomings, typos, inconsistencies in the articles reviewed
 7. creation of “must have” list with essential for replication checkpoints
 
-<a name="sec4"></a>
+<a name="sec5"></a>
 ## Pipeline of the project
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Pipeline.png) 
 
-<a name="sec5"></a>
-## Repository structure
-- [image](/image) contains figures for README.md you are currently reading
-- [checklists](/checklists) in this folder you can find all our checklists in all types
-- [Moskalenko](/Moskalenko) contains scripts for analyzing the reproduction of Moskalenko's article [^1]
-- [Bystricky](/Bystricky) contains scripts for analyzing the reproduction of Bystricky's article [^2]
 
 <a name="sec6"></a>
 ## Our analysis tools and their versions
