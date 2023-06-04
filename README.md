@@ -393,9 +393,11 @@ Example of the command: __trimal -in RAW_DATA -out DATA_TRIM -automated1__ x4
 
 **The selection of the evolutionary model:**
 
-_bmodeltest_ package from BEAST2 software was used for model choice. The best-fitting model of substitution was the transversion model (TVM) with gamma-distributed rate heterogeneity (G) and a given proportion of invariable sites (I). Received model matched with the original.
+_bmodeltest_ package from BEAST2 software was used for model choice. The best-fitting model of substitution was the transversion model (TVM) with gamma-distributed rate heterogeneity (G) and a given proportion of invariable sites (I): 
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/bmodeltest.PNG)
+
+Received model matched with the original:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/modelIndexes.png)
 
@@ -404,6 +406,8 @@ _bmodeltest_ package from BEAST2 software was used for model choice. The best-fi
 It isn’t possible to compare trees, due to the Jawa heap space error, which hasn’t been solved yet.
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Mistake.PNG)
+
+The result of the original article:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Watier.PNG)
 
