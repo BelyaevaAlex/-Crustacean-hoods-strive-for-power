@@ -41,8 +41,7 @@ NB: There are no folders called Bukin and Watier, since software applications wi
 
 ## Data
 
-__1. Moskalenko [^1]: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic Gammarus species morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond Gammarus species, namely Hyalella azteca and Dikerogammarus villosus were used 
-as outgroups.__
+__1. Moskalenko [^1]: Specimens were collected by the authors of the article in 2012 and 2013 field seasons on Lake Baikal  and preserved in 90% ethanol. A subset of species for sequencing was chosen to represent major lineages within Baikal amphipods, including lineages close to basal nodes. Non-Baikal freshwater palearctic _Gammarus species_ morphologically similar to Baikal amphipods were also considered. Sequences that branched out beyond _Gammarus species_, namely _Hyalella azteca_ and _Dikerogammarus villosus_ were used as outgroups.__
 
 Reproducibly extracting data from NCBI with the help of Entrez Utilities (E-Utils) is possible:
 
@@ -86,11 +85,11 @@ sequences = handle.read()
 
 However, transcriptome assemblies were sometimes mixed among the sequences, which had to be worked with using blastn.
 
-__2. Bystřický [^2]: Individual lines of G. fossarum in their contact zone in the Western Carpathians are being studied.__
+__2. Bystřický [^2]: Individual lines of _G. fossarum_ in their contact zone in the Western Carpathians are being studied.__
 
 There is no source data. But there is an archive already with ready alignments in supporting information: https://aslopubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Flno.12239&file=lno12239-sup-0007-DataS1.zip 
 
-__3. Bukin [^3]: Specimens of the amphipod G. fasciatus were collected in the littoral zone of Lake Baikal + previously published in pop-set data.__
+__3. Bukin [^3]: Specimens of the amphipod _G. fasciatus_ were collected in the littoral zone of Lake Baikal + previously published in pop-set data.__
 
 URL-link for pop-set data:
 https://www.ncbi.nlm.nih.gov/popset/376403838
@@ -103,7 +102,7 @@ https://www.ncbi.nlm.nih.gov/nuccore/MG214957.1/
 MG214958:
 https://www.ncbi.nlm.nih.gov/nuccore/MG214958.1/
 
-__4. Wattier [^4]: COI sequences for the DNA-barcode region were either newly generated or derived from the literature for 4926 Gammarus fossarum individuals, from 498 sampling sites distributed throughout 19 European countries.__
+__4. Wattier [^4]: COI sequences for the DNA-barcode region were either newly generated or derived from the literature for 4926 _Gammarus fossarum_ individuals, from 498 sampling sites distributed throughout 19 European countries.__
 
 All these sequences were derived into three groups.
 
@@ -202,7 +201,7 @@ __Visualization of trees:__
 
 **Preparing data for alignment:**
 
-The article describes two new species of Baikal gammarids, Eulimnogammarus trengove sp. nov. and Eulimnogammarus tchernykhi sp. nov., with some morphology indicating a basal position within the radiation, but strangely, with further concatenation of the data, we have not to consider them due to the lack of data provided in the article. In addition, the description of datasets that was presented in the methods and materials section does not contain these two types of Baikal gammarids. In addition, a rather interesting fact is that by the type of phylogenetic trees in the article, it seems that the data was still divided into two datasets in a slightly different way (this can be judged due to the difference and the number of species under consideration).
+The article describes two new species of _Baikal gammarids_, _Eulimnogammarus trengove sp. nov._ and _Eulimnogammarus tchernykhi sp. nov._, with some morphology indicating a basal position within the radiation, but strangely, with further concatenation of the data, we have not to consider them due to the lack of data provided in the article. In addition, the description of datasets that was presented in the methods and materials section does not contain these two types of _Baikal gammarids_. In addition, a rather interesting fact is that by the type of phylogenetic trees in the article, it seems that the data was still divided into two datasets in a slightly different way (this can be judged due to the difference and the number of species under consideration).
 
 Also to process the data from both the source and the tools obtained during the application, a few small scripts were written to generate the correct input data for the next tools in the queue of our pipeline tools. All of them are presented in the file [Datasets.ipynb](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/Moskalenko/Datasets.ipynb) file. For convenience, they are designed in the form of functions.
 
@@ -279,10 +278,10 @@ It is very strange that in the original article, the same authors obtained diffe
 
 __The main conclusions we have received:__
 
-1) The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogeny placement of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
-2) The hypothesis that Hyalella azteca is an Outgroup has been confirmed by ML methodology.
-3) According to our analysis, such a unique result was not obtained, as the only species that is consistently attributed to the sister group in relation to the rest of the second Baikal radiation was Pachyschesis branchialis. 
-4) The hypothesis was confirmed: The inferred relationship of the two Baikal cades with cosmopolitan palearctic Gammarus species strongly depends on the species and genes included and phylogenetic methodology used.
+1) The article described two new species of _Baikal gammarids_, _Eulimnogammarus etingovae sp. nov._ and _Eulimnogammarus tchernykhi sp. nov._, and using the construction of phylogenetic trees, they tried to determine the phylogeny placement of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
+2) The hypothesis that _Hyalella azteca_ is an outgroup has been confirmed by ML methodology.
+3) According to our analysis, such a unique result was not obtained, as the only species that is consistently attributed to the sister group in relation to the rest of the second Baikal radiation was _Pachyschesis branchialis_. 
+4) The hypothesis was confirmed: The inferred relationship of the two Baikal cades with cosmopolitan palearctic _Gammarus species_ strongly depends on the species and genes included and phylogenetic methodology used.
 5) Finally, ML analysis suggests that Baikal’s first clade isn't sister to the basal palearctic species which contradicts the results obtained in the article.
 6) The lack of agreement between different phylogenetic methods with the low resolution allowed by limited sequence data may be interpreted as an evidence of fast ancient divergence. The hypothesis is confirmed.
 
@@ -342,7 +341,7 @@ __The main conclusions we have received:__
 
 1) Maximum likelihood family trees for each analyzed marker. 
 2) The same synthetic individuals belonging to different pedigrees were obtained, 
-3) The outgroup is everywhere Gammarus pulex. 
+3) The outgroup is everywhere _Gammarus pulex_. 
 4) Note that both alleles of the EF1a marker are present in the tree.
 5) The haploweb method, applied on EF1a data, confirmed the lack of hybridization since each lineage harbored unique alleles.
 
