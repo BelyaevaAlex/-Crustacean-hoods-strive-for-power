@@ -260,15 +260,20 @@ __All sequences without gaps in the data:__
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_all_ml.png)
 
 **Building BA-trees:**
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.06.png)
-![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Снимок%20экрана%202023-05-22%20в%2009.11.16.png)
+Phylogenies were also reconstructed by Bayesian analysis (BA) in BEAST2:
 
-It is very strange that in the original article, the same authors obtained different results on phylogenetic analysis without adding new data, however, none of their articles indicate either evolutionary models for building trees, or parameters set in tools, sometimes only software versions, and then not all.
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_1_ba.png)
+
+Protein coding sequences (H3) entered as amino acid sequences: 
+
+![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_2_ba.png)
+
+It is very strange that in the original article, the same authors obtained different results on phylogenetic analysis without adding new data, however, none of their articles indicate either evolutionary models for building trees, or parameters set in some tools.
 
 __The main conclusions we have received:__
 
 1) The article described two new species of Baikal gammarids, Eulimnogammarus etingovae sp. nov. and Eulimnogammarus tchernykhi sp. nov., and using the construction of phylogenetic trees, they tried to determine the phylogeny placement of these two new species. However, according to the table and description of datasets provided by the authors of this article, they throw them out of consideration, which is indicated by the type of trees we have built.
-2) The hypothesis that Hyalella azteca is an Outgroup has been confirmed
+2) The hypothesis that Hyalella azteca is an Outgroup has been confirmed by ML methodology.
 3) According to our analysis, such a unique result was not obtained, as the only species that is consistently attributed to the sister group in relation to the rest of the second Baikal radiation was Pachyschesis branchialis. 
 4) The hypothesis was confirmed: The inferred relationship of the two Baikal cades with cosmopolitan palearctic Gammarus species strongly depends on the species and genes included and phylogenetic methodology used.
 5) Finally, ML analysis suggests that Baikal’s first clade isn't sister to the basal palearctic species which contradicts the results obtained in the article.
