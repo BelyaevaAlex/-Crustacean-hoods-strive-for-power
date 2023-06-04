@@ -261,11 +261,11 @@ __All sequences without gaps in the data:__
 
 **Building BA-trees for Dataset 1:**
 
-1. Phylogenies were also reconstructed by Bayesian analysis (BA) in BEAST2:
+Phylogenies were also reconstructed by Bayesian analysis (BA) in BEAST2:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_1_ba.png)
 
-2. Protein coding sequences (H3) entered as amino acid sequences: 
+But protein coding sequences (H3) entered as amino acid sequences: 
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Group_1_2_ba.png)
 
