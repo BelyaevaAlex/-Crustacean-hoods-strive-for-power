@@ -367,11 +367,15 @@ _jmodeltest_ software and the BIC creteria was used for model choice. In the ori
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/1_3.PNG)
 
-**Building ML-trees:**
+**Building reconstructed tree:**
 
-On the our picture we can see the original clades of Central, Northern and southwestern populations. Little difference may be the result of poor given data. 
+The phylogenetic tree was reconstructed using the Bayesian analysis with molecular clock in the BEAST2 software package with settings according to the article. 
+
+The result of the original article:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Bukin.PNG)
+
+On the our picture we can see the original clades of Central, Northern and southwestern populations. Little difference may be the result of poor given data. 
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/all_in_one_2_trim_lognorma_strict_trees_built.txt.png)
 
@@ -401,9 +405,9 @@ Received model matched with the original:
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/modelIndexes.png)
 
-**Building ML-trees:**
+**Building reconstructed tree:**
 
-It isn’t possible to compare trees, due to the Jawa heap space error, which hasn’t been solved yet.
+The phylogenetic tree was reconstructed using the Bayesian analysis with molecular clock in the BEAST2 software package with settings according to the article. It isn’t possible to compare trees, due to the Jawa heap space error, which hasn’t been solved yet.
 
 ![](https://github.com/BelyaevaAlex/-Crustacean-hoods-strive-for-power/blob/main/image/Mistake.PNG)
 
